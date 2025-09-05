@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Scaffold .NET 8 Web API",
+			"type": "shell",
+			"command": "dotnet new webapi --framework net8.0 --no-https --use-minimal-apis --output .",
+			"group": "build"
+		},
+		{
+			"label": "Run .NET 8 Web API",
+			"type": "shell",
+			"command": "dotnet run",
+			"group": "build"
+		}
+	]
+}
